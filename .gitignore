@@ -1,1 +1,4 @@
 .venv
+known_faces/*
+unknown_faces/*
+video/*
