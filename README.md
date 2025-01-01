@@ -21,20 +21,6 @@ Para a classificação facial, usaremos a biblioteca face_recognition que é bas
         Os embeddings das faces detectadas são comparados com os embeddings das faces conhecidas para identificar as pessoas.
         Desenhamos um retângulo ao redor das faces detectadas e escrevemos o nome da pessoa identificada abaixo da face.
 
-### Requisitos
-
-    Instale as bibliotecas necessárias:
-
-    cmake
-    pip install opencv-python face_recognition numpy
-
-### Teste
-
-Execute o script e aponte a webcam para diferentes pessoas ou use um vídeo para verificar a detecção e reconhecimento facial.
-
-Este código cobre tanto a detecção facial quanto o reconhecimento, usando modelos pré-treinados para simplificar o processo.
-
-
 ### Código 
 
 # Script de Detecção e Reconhecimento Facial
